@@ -1,0 +1,19 @@
+{
+  "name": "pack",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "illia",
+  "type": "commonjs",
+  "homepage": "https://illia-pro2025.github.io/privat_projet/",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  }
+}
