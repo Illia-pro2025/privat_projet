@@ -1,10 +1,10 @@
-const API_URL = "https://api.anilibria.app/v3/title/releases";
+const API_URL = "https://my-projet-production.up.railway.app/releases";
 
 fetch(API_URL)
-  .then((response) => response.json())
+  .then((res) => res.json())
   .then((data) => {
     console.log("Base d'anime reçue :", data);
   })
-  .catch((error) => {
-    console.error("Erreur lors de la récupération :", error);
+  .catch((err) => {
+    console.error("Erreur backend :", err);
   });

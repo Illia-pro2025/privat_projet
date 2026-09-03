@@ -9,11 +9,14 @@
   "scripts": {
     "deploy": "gh-pages -d dist",
     "build": "parcel build src/index.html",
-    "start": "parcel src/index.html",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
-    "parcel": "^2.16.4"
+    "parcel": "^2.16.4",
+    "express": "^4.19.0",
+    "puppeteer": "^22.0.0",
+    "cors": "^2.8.5"
   }
 }
